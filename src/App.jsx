@@ -1,25 +1,25 @@
 export default function App() {
   return (
-    <div data-layer="Home" className="Home p-4 bg-zinc-900 rounded-[110px] inline-flex flex-col justify-start items-start overflow-hidden">
-      <div data-layer="Page Wrapper" className="PageWrapper bg-gray-200/40 rounded-[96px] flex flex-col justify-start items-center">
-        <div data-layer="Hero" className="Hero w-[1888px] h-[2350px] relative rounded-tl-[96px] rounded-tr-[96px] overflow-hidden">
-          <img data-layer="image" className="Image w-[1920px] h-[2449.70px] left-0 top-0 absolute" src="/home_hero.png" />
-          <div data-layer="overlay" className="Overlay w-[1920px] h-[2452px] left-0 top-0 absolute opacity-20 bg-zinc-900" />
-          <div data-layer="overlay" className="Overlay w-[1888px] h-[1554px] left-0 top-[802px] absolute opacity-60 bg-gradient-to-b from-black/0 to-black" />
-          <div data-layer="cursor" className="Cursor w-28 h-28 px-5 py-2.5 left-[1500px] top-[987px] absolute bg-zinc-900 rounded-[500px] inline-flex justify-center items-center gap-8">
-            <div data-layer="View" className="View justify-start text-white text-base font-medium font-['Satoshi_Variable'] uppercase leading-tight tracking-wide">scroll</div>
+    <div data-layer="Home" className="Home p-2 sm:p-4 bg-zinc-900 rounded-[110px] inline-flex flex-col justify-start items-start overflow-hidden min-h-screen">
+      <div data-layer="Page Wrapper" className="PageWrapper bg-gray-200/40 rounded-[96px] flex flex-col justify-start items-center w-full">
+        <div data-layer="Hero" className="Hero w-full max-w-7xl h-[2350px] lg:h-[2350px] md:h-[1800px] sm:h-[1400px] relative rounded-tl-[96px] rounded-tr-[96px] overflow-hidden">
+          <img data-layer="image" className="Image w-full h-full left-0 top-0 absolute object-cover" src="/home_hero.png" />
+          <div data-layer="overlay" className="Overlay w-full h-full left-0 top-0 absolute opacity-20 bg-zinc-900" />
+          <div data-layer="overlay" className="Overlay w-full h-[60%] left-0 bottom-0 absolute opacity-60 bg-gradient-to-t from-black via-black/60 to-black/0" />
+          <div data-layer="cursor" className="Cursor w-20 h-20 sm:w-28 sm:h-28 px-3 py-2 sm:px-5 sm:py-2.5 right-4 top-[60%] sm:right-8 lg:left-[1500px] lg:top-[987px] absolute bg-zinc-900 rounded-[500px] inline-flex justify-center items-center gap-8">
+            <div data-layer="View" className="View justify-start text-white text-sm sm:text-base font-medium font-['Satoshi_Variable'] uppercase leading-tight tracking-wide">scroll</div>
           </div>
-          <div data-layer="Grid" className="Grid left-[464px] top-[316px] absolute inline-flex flex-col justify-start items-center gap-4">
+          <div data-layer="Grid" className="Grid left-4 right-4 top-[80px] sm:left-8 sm:right-8 sm:top-[120px] lg:left-[464px] lg:top-[316px] absolute inline-flex flex-col justify-start items-center gap-2 sm:gap-4 px-4">
             <div data-layer="Grid" className="Grid flex flex-col justify-start items-center">
-              <div data-layer="A LIFETIME" className="ALifetime justify-start text-white text-[160px] font-medium font-['Satoshi_Variable'] uppercase leading-[160px]">A LIFETIME</div>
-              <div data-layer="GOLFING" className="Golfing justify-start text-white text-[160px] font-normal font-['Zodiak_Variable'] uppercase leading-[160px]">GOLFING</div>
-              <div data-layer="EXPERIENCE" className="Experience justify-start text-white text-[160px] font-medium font-['Satoshi_Variable'] uppercase leading-[160px]">EXPERIENCE</div>
+              <div data-layer="A LIFETIME" className="ALifetime justify-start text-white text-4xl sm:text-6xl md:text-8xl lg:text-[160px] font-medium font-['Satoshi_Variable'] uppercase leading-tight sm:leading-[50px] md:leading-[80px] lg:leading-[160px] text-center">A LIFETIME</div>
+              <div data-layer="GOLFING" className="Golfing justify-start text-white text-4xl sm:text-6xl md:text-8xl lg:text-[160px] font-normal font-['Zodiak_Variable'] uppercase leading-tight sm:leading-[50px] md:leading-[80px] lg:leading-[160px] text-center">GOLFING</div>
+              <div data-layer="EXPERIENCE" className="Experience justify-start text-white text-4xl sm:text-6xl md:text-8xl lg:text-[160px] font-medium font-['Satoshi_Variable'] uppercase leading-tight sm:leading-[50px] md:leading-[80px] lg:leading-[160px] text-center">EXPERIENCE</div>
             </div>
-            <div data-layer="Prestive Platinum Membership" className="PrestivePlatinumMembership w-[600px] text-center justify-start text-white text-3xl font-normal font-['Satoshi_Variable']">Prestive Platinum Membership</div>
+            <div data-layer="Prestive Platinum Membership" className="PrestivePlatinumMembership w-full max-w-[600px] text-center justify-start text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal font-['Satoshi_Variable'] px-4">Prestive Platinum Membership</div>
           </div>
-          <div data-layer="Grid" className="Grid left-[260px] top-[1232px] absolute inline-flex flex-col justify-start items-start gap-12">
+          <div data-layer="Grid" className="Grid left-4 right-4 bottom-[200px] sm:left-8 sm:right-8 sm:bottom-[300px] lg:left-[260px] lg:bottom-[200px] lg:top-[1232px] absolute inline-flex flex-col justify-start items-start gap-8 sm:gap-12 px-4">
             <div data-layer="Grid" className="Grid flex flex-col justify-start items-start gap-16">
-              <div data-layer="Presitve Club: The essence of Golf" className="PresitveClubTheEssenceOfGolf w-[600px] justify-start text-white text-6xl font-medium font-['Satoshi_Variable'] leading-[76.80px]">Presitve Club:<br/>The essence<br/>of Golf</div>
+              <div data-layer="Presitve Club: The essence of Golf" className="PresitveClubTheEssenceOfGolf w-full max-w-[600px] justify-start text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-['Satoshi_Variable'] leading-tight sm:leading-[50px] md:leading-[60px] lg:leading-[76.80px]">Presitve Club:<br/>The essence<br/>of Golf</div>
             </div>
             <div data-layer="Grid" className="Grid flex flex-col justify-start items-start gap-12">
               <div data-layer="Golf is a timeless game that blends physical skill with mental clarity. It offers a space where strategy and calmness coexist, and where the environment itself becomes part of the challenge. For many, golf is more than competition, it's about patience, discipline, and personal growth. From rolling fairways to quiet greens, it’s a sport that nourishes both body and mind." className="GolfIsATimelessGameThatBlendsPhysicalSkillWithMentalClarityItOffersASpaceWhereStrategyAndCalmnessCoexistAndWhereTheEnvironmentItselfBecomesPartOfTheChallengeForManyGolfIsMoreThanCompetitionItSAboutPatienceDisciplineAndPersonalGrowthFromRollingFairwaysToQuietGreensItSASportThatNourishesBothBodyAndMind w-[600px] justify-start text-white text-3xl font-medium font-['Satoshi_Variable']">Golf is a timeless game that blends physical skill with mental clarity. It offers a space where strategy and calmness coexist, and where the environment itself becomes part of the challenge.<br/><br/>For many, golf is more than competition, it's about patience, discipline, and personal growth. From rolling fairways to quiet greens, it’s a sport that nourishes both body and mind.</div>
@@ -37,42 +37,42 @@ export default function App() {
               </div>
             </div>
           </div>
-          <div data-layer="navbar" className="Navbar w-[1600px] left-[160px] top-[80px] absolute inline-flex justify-between items-center">
-            <div data-layer="navbar-left" className="NavbarLeft w-96 inline-flex flex-col justify-start items-start gap-2.5">
-              <div data-layer="logo" className="Logo h-24 inline-flex justify-start items-start gap-[3px]">
-                <img data-layer="prestive 1" className="Prestive1 w-41 h-36" src="/logo.png" />
+          <div data-layer="navbar" className="Navbar w-full max-w-7xl left-4 right-4 top-4 sm:left-8 sm:right-8 sm:top-8 lg:left-[160px] lg:top-[80px] absolute inline-flex justify-between items-center px-4 sm:px-0">
+            <div data-layer="navbar-left" className="NavbarLeft inline-flex flex-col justify-start items-start gap-2.5">
+              <div data-layer="logo" className="Logo h-16 sm:h-20 lg:h-24 inline-flex justify-start items-start gap-[3px]">
+                <img data-layer="prestive 1" className="Prestive1 w-auto h-full object-contain" src="/logo.png" />
               </div>
             </div>
             <div data-layer="menu" className="Menu inline-flex flex-col justify-start items-start gap-2.5">
-              <div data-layer="navbar-nav" className="NavbarNav px-5 py-2.5 bg-zinc-900 rounded-[500px] backdrop-blur-lg inline-flex justify-start items-center gap-8 overflow-hidden">
+              <div data-layer="navbar-nav" className="NavbarNav px-3 py-2 sm:px-5 sm:py-2.5 bg-zinc-900 rounded-[500px] backdrop-blur-lg inline-flex justify-start items-center gap-2 sm:gap-8 overflow-hidden">
                 <div data-layer="inner" className="Inner flex justify-start items-center gap-0.5">
                   <div data-layer="menu" className="Menu flex justify-start items-center">
-                    <div data-layer="menu-item" className="MenuItem p-4 rounded-[100px] flex justify-start items-center gap-0.5">
-                      <div data-layer="Projects" className="Projects justify-start text-white text-base font-medium font-['Satoshi_Variable'] leading-none">Home</div>
+                    <div data-layer="menu-item" className="MenuItem p-2 sm:p-4 rounded-[100px] flex justify-start items-center gap-0.5">
+                      <div data-layer="Projects" className="Projects justify-start text-white text-sm sm:text-base font-medium font-['Satoshi_Variable'] leading-none">Home</div>
                     </div>
-                    <div data-layer="menu-item" className="MenuItem p-4 rounded-[100px] flex justify-start items-start gap-2.5">
-                      <div data-layer="About" className="About justify-start text-white text-base font-medium font-['Satoshi_Variable'] leading-none">Shop</div>
+                    <div data-layer="menu-item" className="MenuItem p-2 sm:p-4 rounded-[100px] flex justify-start items-start gap-2.5">
+                      <div data-layer="About" className="About justify-start text-white text-sm sm:text-base font-medium font-['Satoshi_Variable'] leading-none">Shop</div>
                     </div>
-                    <div data-layer="menu-item" className="MenuItem p-4 rounded-[100px] flex justify-start items-start gap-0.5">
-                      <div data-layer="Pages" className="Pages justify-start text-white text-base font-medium font-['Satoshi_Variable'] leading-none">Contact</div>
+                    <div data-layer="menu-item" className="MenuItem p-2 sm:p-4 rounded-[100px] flex justify-start items-start gap-0.5">
+                      <div data-layer="Pages" className="Pages justify-start text-white text-sm sm:text-base font-medium font-['Satoshi_Variable'] leading-none">Contact</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div data-layer="navbar-right" className="NavbarRight w-96 flex justify-end items-center gap-4">
-              <div data-layer="socials" className="Socials flex justify-start items-start gap-4">
-                <div data-layer="badge" className="Badge w-10 h-10 px-5 py-2.5 bg-gray-200/40 rounded-[500px] flex justify-center items-center gap-8">
+            <div data-layer="navbar-right" className="NavbarRight flex justify-end items-center gap-2 sm:gap-4">
+              <div data-layer="socials" className="Socials flex justify-start items-start gap-2 sm:gap-4">
+                <div data-layer="badge" className="Badge w-8 h-8 sm:w-10 sm:h-10 px-2 py-1 sm:px-5 sm:py-2.5 bg-gray-200/40 rounded-[500px] flex justify-center items-center gap-8">
                   <div data-svg-wrapper data-layer="solar:user-bold" className="SolarUserBold relative">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="16" height="16" className="sm:w-5 sm:h-5" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M9.99996 8.33334C11.8409 8.33334 13.3333 6.84095 13.3333 5.00001C13.3333 3.15906 11.8409 1.66667 9.99996 1.66667C8.15901 1.66667 6.66663 3.15906 6.66663 5.00001C6.66663 6.84095 8.15901 8.33334 9.99996 8.33334Z" fill="#191919"/>
                       <path d="M16.6667 14.5833C16.6667 16.6542 16.6667 18.3333 10 18.3333C3.33337 18.3333 3.33337 16.6542 3.33337 14.5833C3.33337 12.5125 6.31837 10.8333 10 10.8333C13.6817 10.8333 16.6667 12.5125 16.6667 14.5833Z" fill="#191919"/>
                     </svg>
                   </div>
                 </div>
-                <div data-layer="badge" className="Badge w-10 h-10 px-5 py-2.5 bg-gray-200/40 rounded-[500px] flex justify-center items-center gap-8">
+                <div data-layer="badge" className="Badge w-8 h-8 sm:w-10 sm:h-10 px-2 py-1 sm:px-5 sm:py-2.5 bg-gray-200/40 rounded-[500px] flex justify-center items-center gap-8">
                   <div data-svg-wrapper data-layer="fluent:cart-16-filled" className="FluentCart16Filled relative">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="16" height="16" className="sm:w-5 sm:h-5" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M3.125 2.5C2.95924 2.5 2.80027 2.56585 2.68306 2.68306C2.56585 2.80027 2.5 2.95924 2.5 3.125C2.5 3.29076 2.56585 3.44973 2.68306 3.56694C2.80027 3.68415 2.95924 3.75 3.125 3.75H3.4325C3.56821 3.75023 3.70016 3.79464 3.80841 3.8765C3.91666 3.95836 3.99531 4.07323 4.0325 4.20375L6.015 11.1413C6.12713 11.5328 6.36368 11.8771 6.68888 12.1223C7.01408 12.3674 7.41025 12.5 7.8175 12.5H13.5287C13.9036 12.5001 14.2698 12.3878 14.5802 12.1777C14.8905 11.9676 15.1308 11.6693 15.27 11.3212L17.1125 6.71375C17.1882 6.52416 17.2164 6.3189 17.1945 6.11591C17.1726 5.91293 17.1013 5.7184 16.9869 5.54932C16.8724 5.38025 16.7183 5.24178 16.538 5.14602C16.3577 5.05026 16.1567 5.00013 15.9525 5H5.56L5.23375 3.86C5.12191 3.46847 4.88564 3.12398 4.56068 2.87862C4.23571 2.63326 3.83969 2.50036 3.4325 2.5H3.125ZM8.125 17.5C8.37123 17.5 8.61505 17.4515 8.84253 17.3573C9.07002 17.263 9.27672 17.1249 9.45083 16.9508C9.62494 16.7767 9.76305 16.57 9.85727 16.3425C9.9515 16.115 10 15.8712 10 15.625C10 15.3788 9.9515 15.135 9.85727 14.9075C9.76305 14.68 9.62494 14.4733 9.45083 14.2992C9.27672 14.1251 9.07002 13.987 8.84253 13.8927C8.61505 13.7985 8.37123 13.75 8.125 13.75C7.62772 13.75 7.15081 13.9475 6.79917 14.2992C6.44754 14.6508 6.25 15.1277 6.25 15.625C6.25 16.1223 6.44754 16.5992 6.79917 16.9508C7.15081 17.3025 7.62772 17.5 8.125 17.5ZM13.125 17.5C13.3712 17.5 13.615 17.4515 13.8425 17.3573C14.07 17.263 14.2767 17.1249 14.4508 16.9508C14.6249 16.7767 14.763 16.57 14.8573 16.3425C14.9515 16.115 15 15.8712 15 15.625C15 15.3788 14.9515 15.135 14.8573 14.9075C14.763 14.68 14.6249 14.4733 14.4508 14.2992C14.2767 14.1251 14.07 13.987 13.8425 13.8927C13.615 13.7985 13.3712 13.75 13.125 13.75C12.6277 13.75 12.1508 13.9475 11.7992 14.2992C11.4475 14.6508 11.25 15.1277 11.25 15.625C11.25 16.1223 11.4475 16.5992 11.7992 16.9508C12.1508 17.3025 12.6277 17.5 13.125 17.5Z" fill="#191919"/>
                     </svg>
                   </div>
