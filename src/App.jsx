@@ -226,128 +226,126 @@ export default function App() {
               </div>
             </div>
           </div>
-          <div data-layer="Section Stats" className="SectionStats self-stretch h-[971px] pt-48 flex flex-col justify-start items-center">
-            <div data-layer="Container" className="Container w-full max-w-[1600px] inline-flex justify-start items-start gap-24">
-              <div data-layer="Left" className="Left inline-flex flex-col justify-start items-start gap-12">
+          <div data-layer="Section Stats" className="SectionStats self-stretch min-h-[600px] sm:min-h-[800px] lg:min-h-[971px] pt-24 sm:pt-36 lg:pt-48 px-4 sm:px-8 flex flex-col justify-start items-center">
+            <div data-layer="Container" className="Container w-full max-w-[1600px] flex flex-col lg:flex-row justify-start items-start gap-12 lg:gap-24">
+              <div data-layer="Left" className="Left w-full lg:flex-1 inline-flex flex-col justify-start items-start gap-8 sm:gap-12">
                 <div data-layer="Grid" className="Grid flex flex-col justify-start items-start gap-4">
-                  <div data-layer="More Than a Sport, a Lifelong Experience" className="MoreThanASportALifelongExperience w-[615px] justify-start text-white text-6xl font-medium font-['Satoshi_Variable'] leading-[76.80px]">More Than a Sport, a Lifelong Experience</div>
-                  <div data-layer="Golf is a timeless game that blends physical skill with mental clarity. From rolling fairways to quiet greens, it's a sport that nourishes both body and mind." className="GolfIsATimelessGameThatBlendsPhysicalSkillWithMentalClarityFromRollingFairwaysToQuietGreensItSASportThatNourishesBothBodyAndMind w-[511px] justify-start text-white text-xl font-normal font-['Satoshi_Variable'] leading-10">Golf is a timeless game that blends physical skill with mental clarity. From rolling fairways to quiet greens, it's a sport that nourishes both body and mind.</div>
+                  <div data-layer="More Than a Sport, a Lifelong Experience" className="MoreThanASportALifelongExperience w-full max-w-[615px] justify-start text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium font-['Satoshi_Variable'] leading-tight sm:leading-[50px] md:leading-[60px] lg:leading-[76.80px]">More Than a Sport, a Lifelong Experience</div>
+                  <div data-layer="Golf is a timeless game that blends physical skill with mental clarity. From rolling fairways to quiet greens, it's a sport that nourishes both body and mind." className="GolfIsATimelessGameThatBlendsPhysicalSkillWithMentalClarityFromRollingFairwaysToQuietGreensItSASportThatNourishesBothBodyAndMind w-full max-w-[511px] justify-start text-white text-lg sm:text-xl font-normal font-['Satoshi_Variable'] leading-relaxed sm:leading-10">Golf is a timeless game that blends physical skill with mental clarity. From rolling fairways to quiet greens, it's a sport that nourishes both body and mind.</div>
                 </div>
-                <div data-layer="button-text" data-size="default" data-style="default" className="ButtonText inline-flex justify-start items-center gap-6">
-                  <div data-layer="Button" className="Button justify-start text-white text-xl font-medium font-['Satoshi_Variable'] leading-9">View Memberships</div>
-                  <div data-layer="icon" className="Icon w-14 h-14 rounded-[200px] outline-1 outline-offset-[-1px] outline-gray-200 flex justify-center items-center gap-2.5">
+                <button data-layer="button-text" data-size="default" data-style="default" className="ButtonText inline-flex justify-start items-center gap-4 sm:gap-6 bg-white hover:bg-gray-100 px-6 py-3 sm:px-8 sm:py-4 rounded-full transition-colors duration-200 cursor-pointer">
+                  <div data-layer="Button" className="Button justify-start text-zinc-900 text-lg sm:text-xl font-medium font-['Satoshi_Variable'] leading-9">View Memberships</div>
+                  <div data-layer="icon" className="Icon w-10 h-10 sm:w-14 sm:h-14 rounded-[200px] outline-1 outline-offset-[-1px] outline-zinc-900 flex justify-center items-center gap-2.5">
                     <div data-svg-wrapper data-layer="ri:arrow-right-line" className="RiArrowRightLine relative">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16.172 11.0002L10.808 5.63617L12.222 4.22217L20 12.0002L12.222 19.7782L10.808 18.3642L16.172 13.0002H4V11.0002H16.172Z" fill="white"/>
+                      <svg width="20" height="20" className="sm:w-6 sm:h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.172 11.0002L10.808 5.63617L12.222 4.22217L20 12.0002L12.222 19.7782L10.808 18.3642L16.172 13.0002H4V11.0002H16.172Z" fill="#191919"/>
                       </svg>
                     </div>
                   </div>
-                </div>
+                </button>
               </div>
-              <div data-layer="Right" className="Right inline-flex flex-col justify-start items-start gap-8">
-                <div data-layer="Grid" className="Grid inline-flex justify-start items-start gap-8">
-                  <div data-layer="Card" className="Card p-12 bg-gray-200/20 rounded-2xl inline-flex flex-col justify-start items-start gap-4">
+              <div data-layer="Right" className="Right w-full lg:flex-1 inline-flex flex-col justify-start items-start gap-6 sm:gap-8">
+                <div data-layer="Grid" className="Grid w-full grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+                  <div data-layer="Card" className="Card p-6 sm:p-8 lg:p-12 bg-gray-200/20 rounded-2xl inline-flex flex-col justify-start items-start gap-4">
                     <div data-layer="Grid" className="Grid self-stretch flex flex-col justify-start items-start gap-2">
-                      <div data-layer="14" className="self-stretch justify-start text-white text-5xl font-medium font-['Satoshi_Variable'] leading-[62.40px]">14</div>
-                      <div data-layer="GOLF ACADEMY CLASSES" className="GolfAcademyClasses self-stretch justify-start text-white text-base font-medium font-['Satoshi_Variable'] uppercase leading-tight tracking-wide">GOLF ACADEMY CLASSES</div>
+                      <div data-layer="14" className="self-stretch justify-start text-white text-4xl sm:text-5xl font-medium font-['Satoshi_Variable'] leading-tight sm:leading-[62.40px]">14</div>
+                      <div data-layer="GOLF ACADEMY CLASSES" className="GolfAcademyClasses self-stretch justify-start text-white text-sm sm:text-base font-medium font-['Satoshi_Variable'] uppercase leading-tight tracking-wide">GOLF ACADEMY CLASSES</div>
                     </div>
-                    <div data-layer="Learn essential golf techniques, including swing mechanics, putting skills, and course strategy at the Army Golf Club." className="LearnEssentialGolfTechniquesIncludingSwingMechanicsPuttingSkillsAndCourseStrategyAtTheArmyGolfClub w-80 justify-start text-white text-lg font-normal font-['Satoshi_Variable'] leading-loose">Learn essential golf techniques, including swing mechanics, putting skills, and course strategy at the Army Golf Club.</div>
+                    <div data-layer="Learn essential golf techniques, including swing mechanics, putting skills, and course strategy at the Army Golf Club." className="LearnEssentialGolfTechniquesIncludingSwingMechanicsPuttingSkillsAndCourseStrategyAtTheArmyGolfClub w-full justify-start text-white text-base sm:text-lg font-normal font-['Satoshi_Variable'] leading-relaxed sm:leading-loose">Learn essential golf techniques, including swing mechanics, putting skills, and course strategy at the Army Golf Club.</div>
                   </div>
-                  <div data-layer="Card" className="Card p-12 bg-gray-200/20 rounded-2xl inline-flex flex-col justify-start items-start gap-4">
+                  <div data-layer="Card" className="Card p-6 sm:p-8 lg:p-12 bg-gray-200/20 rounded-2xl inline-flex flex-col justify-start items-start gap-4">
                     <div data-layer="Grid" className="Grid self-stretch flex flex-col justify-start items-start gap-2">
-                      <div data-layer="8" className="self-stretch justify-start text-white text-5xl font-medium font-['Satoshi_Variable'] leading-[62.40px]">8</div>
-                      <div data-layer="PRIORITY TEE TIMES" className="PriorityTeeTimes self-stretch justify-start text-white text-base font-medium font-['Satoshi_Variable'] uppercase leading-tight tracking-wide">PRIORITY TEE TIMES</div>
+                      <div data-layer="8" className="self-stretch justify-start text-white text-4xl sm:text-5xl font-medium font-['Satoshi_Variable'] leading-tight sm:leading-[62.40px]">8</div>
+                      <div data-layer="PRIORITY TEE TIMES" className="PriorityTeeTimes self-stretch justify-start text-white text-sm sm:text-base font-medium font-['Satoshi_Variable'] uppercase leading-tight tracking-wide">PRIORITY TEE TIMES</div>
                     </div>
-                    <div data-layer="Enjoy preferred access to prime tee times, allowing you to play at your convenience without long waits or scheduling conflicts." className="EnjoyPreferredAccessToPrimeTeeTimesAllowingYouToPlayAtYourConvenienceWithoutLongWaitsOrSchedulingConflicts w-80 justify-start text-white text-lg font-normal font-['Satoshi_Variable'] leading-loose">Enjoy preferred access to prime tee times, allowing you to play at your convenience without long waits or scheduling conflicts.</div>
+                    <div data-layer="Enjoy preferred access to prime tee times, allowing you to play at your convenience without long waits or scheduling conflicts." className="EnjoyPreferredAccessToPrimeTeeTimesAllowingYouToPlayAtYourConvenienceWithoutLongWaitsOrSchedulingConflicts w-full justify-start text-white text-base sm:text-lg font-normal font-['Satoshi_Variable'] leading-relaxed sm:leading-loose">Enjoy preferred access to prime tee times, allowing you to play at your convenience without long waits or scheduling conflicts.</div>
                   </div>
-                </div>
-                <div data-layer="Grid" className="Grid inline-flex justify-start items-start gap-8">
-                  <div data-layer="Card" className="Card p-12 bg-gray-200/20 rounded-2xl inline-flex flex-col justify-start items-start gap-4">
+                  <div data-layer="Card" className="Card p-6 sm:p-8 lg:p-12 bg-gray-200/20 rounded-2xl inline-flex flex-col justify-start items-start gap-4">
                     <div data-layer="Grid" className="Grid self-stretch flex flex-col justify-start items-start gap-2">
-                      <div data-layer="3" className="self-stretch justify-start text-white text-5xl font-medium font-['Satoshi_Variable'] leading-[62.40px]">3</div>
-                      <div data-layer="EXCLUSIVE COURSE ACCESS" className="ExclusiveCourseAccess self-stretch justify-start text-white text-base font-medium font-['Satoshi_Variable'] uppercase leading-tight tracking-wide">EXCLUSIVE COURSE ACCESS</div>
+                      <div data-layer="3" className="self-stretch justify-start text-white text-4xl sm:text-5xl font-medium font-['Satoshi_Variable'] leading-tight sm:leading-[62.40px]">3</div>
+                      <div data-layer="EXCLUSIVE COURSE ACCESS" className="ExclusiveCourseAccess self-stretch justify-start text-white text-sm sm:text-base font-medium font-['Satoshi_Variable'] uppercase leading-tight tracking-wide">EXCLUSIVE COURSE ACCESS</div>
                     </div>
-                    <div data-layer="Access restricted areas of our courses and enjoy special playing privileges reserved only for premium members." className="AccessRestrictedAreasOfOurCoursesAndEnjoySpecialPlayingPrivilegesReservedOnlyForPremiumMembers w-80 justify-start text-white text-lg font-normal font-['Satoshi_Variable'] leading-loose">Access restricted areas of our courses and enjoy special playing privileges reserved only for premium members.</div>
+                    <div data-layer="Access restricted areas of our courses and enjoy special playing privileges reserved only for premium members." className="AccessRestrictedAreasOfOurCoursesAndEnjoySpecialPlayingPrivilegesReservedOnlyForPremiumMembers w-full justify-start text-white text-base sm:text-lg font-normal font-['Satoshi_Variable'] leading-relaxed sm:leading-loose">Access restricted areas of our courses and enjoy special playing privileges reserved only for premium members.</div>
                   </div>
-                  <div data-layer="Card" className="Card p-12 bg-gray-200/20 rounded-2xl inline-flex flex-col justify-start items-start gap-4">
+                  <div data-layer="Card" className="Card p-6 sm:p-8 lg:p-12 bg-gray-200/20 rounded-2xl inline-flex flex-col justify-start items-start gap-4">
                     <div data-layer="Grid" className="Grid self-stretch flex flex-col justify-start items-start gap-2">
-                      <div data-layer="4" className="self-stretch justify-start text-white text-5xl font-medium font-['Satoshi_Variable'] leading-[62.40px]">4</div>
-                      <div data-layer="FAMILY GOLFING EXPERIENCE" className="FamilyGolfingExperience self-stretch justify-start text-white text-base font-medium font-['Satoshi_Variable'] uppercase leading-tight tracking-wide">FAMILY GOLFING EXPERIENCE</div>
+                      <div data-layer="4" className="self-stretch justify-start text-white text-4xl sm:text-5xl font-medium font-['Satoshi_Variable'] leading-tight sm:leading-[62.40px]">4</div>
+                      <div data-layer="FAMILY GOLFING EXPERIENCE" className="FamilyGolfingExperience self-stretch justify-start text-white text-sm sm:text-base font-medium font-['Satoshi_Variable'] uppercase leading-tight tracking-wide">FAMILY GOLFING EXPERIENCE</div>
                     </div>
-                    <div data-layer="Family members are invited to enjoy a complimentary early morning driving range session on a weekday at Jolshiri Golf Club." className="FamilyMembersAreInvitedToEnjoyAComplimentaryEarlyMorningDrivingRangeSessionOnAWeekdayAtJolshiriGolfClub w-80 justify-start text-white text-lg font-normal font-['Satoshi_Variable'] leading-loose">Family members are invited to enjoy a complimentary early morning driving range session on a weekday at Jolshiri Golf Club.</div>
+                    <div data-layer="Family members are invited to enjoy a complimentary early morning driving range session on a weekday at Jolshiri Golf Club." className="FamilyMembersAreInvitedToEnjoyAComplimentaryEarlyMorningDrivingRangeSessionOnAWeekdayAtJolshiriGolfClub w-full justify-start text-white text-base sm:text-lg font-normal font-['Satoshi_Variable'] leading-relaxed sm:leading-loose">Family members are invited to enjoy a complimentary early morning driving range session on a weekday at Jolshiri Golf Club.</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div data-layer="Section Story" className="SectionStory w-[1888px] h-[1000px] relative rounded-[96px] overflow-hidden">
-            <img data-layer="image" className="Image w-[2000px] h-[1000px]  absolute" src="/philosophy.png" />
-            <div data-layer="Content" className="Content w-[1888px] h-[1000px] p-36 left-0 top-0 absolute inline-flex flex-col justify-between items-start">
-              <div data-layer="Top" className="Top self-stretch flex flex-col justify-start items-start gap-8">
+          <div data-layer="Section Story" className="SectionStory w-full max-w-7xl h-[600px] sm:h-[800px] lg:h-[1000px] relative rounded-[48px] sm:rounded-[96px] overflow-hidden mx-4 sm:mx-8">
+            <img data-layer="image" className="Image w-full h-full left-0 top-0 absolute object-cover" src="/philosophy.png" />
+            <div data-layer="Content" className="Content w-full h-full p-6 sm:p-12 lg:p-36 left-0 top-0 absolute inline-flex flex-col justify-between items-start">
+              <div data-layer="Top" className="Top self-stretch flex flex-col justify-start items-start gap-6 sm:gap-8">
                 <div data-layer="Grid" className="Grid flex flex-col justify-start items-start">
-                  <div data-layer="THE COMPLETE" className="TheComplete justify-start text-white text-9xl font-normal font-['Zodiak_Variable'] uppercase leading-[128px]">THE COMPLETE</div>
-                  <div data-layer="GOLF EXPERIENCE" className="GolfExperience justify-start text-white text-9xl font-medium font-['Satoshi_Variable'] uppercase leading-[128px]">GOLF EXPERIENCE</div>
+                  <div data-layer="THE COMPLETE" className="TheComplete justify-start text-white text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-normal font-['Zodiak_Variable'] uppercase leading-tight sm:leading-[60px] md:leading-[80px] lg:leading-[128px]">THE COMPLETE</div>
+                  <div data-layer="GOLF EXPERIENCE" className="GolfExperience justify-start text-white text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-medium font-['Satoshi_Variable'] uppercase leading-tight sm:leading-[60px] md:leading-[80px] lg:leading-[128px]">GOLF EXPERIENCE</div>
                 </div>
-                <div data-layer="Golf at Prestive is more than just a sport - it's a complete lifestyle experience. Our courses offer the perfect environment for family bonding, personal growth, and cultivating lifelong skills. From beginners to seasoned players, our premium facilities elevate every aspect of your golfing journey." className="GolfAtPrestiveIsMoreThanJustASportItSACompleteLifestyleExperienceOurCoursesOfferThePerfectEnvironmentForFamilyBondingPersonalGrowthAndCultivatingLifelongSkillsFromBeginnersToSeasonedPlayersOurPremiumFacilitiesElevateEveryAspectOfYourGolfingJourney w-[957px] justify-start text-white text-3xl font-normal font-['Satoshi_Variable']">Golf at Prestive is more than just a sport - it's a complete lifestyle experience. Our courses offer the perfect environment for family bonding, personal growth, and cultivating lifelong skills. From beginners to seasoned players, our premium facilities elevate every aspect of your golfing journey.</div>
+                <div data-layer="Golf at Prestive is more than just a sport - it's a complete lifestyle experience. Our courses offer the perfect environment for family bonding, personal growth, and cultivating lifelong skills. From beginners to seasoned players, our premium facilities elevate every aspect of your golfing journey." className="GolfAtPrestiveIsMoreThanJustASportItSACompleteLifestyleExperienceOurCoursesOfferThePerfectEnvironmentForFamilyBondingPersonalGrowthAndCultivatingLifelongSkillsFromBeginnersToSeasonedPlayersOurPremiumFacilitiesElevateEveryAspectOfYourGolfingJourney w-full max-w-[957px] justify-start text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal font-['Satoshi_Variable'] leading-relaxed">Golf at Prestive is more than just a sport - it's a complete lifestyle experience. Our courses offer the perfect environment for family bonding, personal growth, and cultivating lifelong skills. From beginners to seasoned players, our premium facilities elevate every aspect of your golfing journey.</div>
               </div>
-              <div data-layer="button-text" data-size="default" data-style="inverse" className="ButtonText inline-flex justify-start items-center gap-6">
-                <div data-layer="Button" className="Button justify-start text-white text-xl font-medium font-['Satoshi_Variable'] leading-9">Our Philosophy</div>
-                <div data-layer="icon" className="Icon w-14 h-14 rounded-[200px] outline-1 outline-offset-[-1px] outline-white flex justify-center items-center gap-2.5">
-                  <div data-layer="ri:arrow-down-line" className="RiArrowDownLine w-0 h-6 relative origin-top-left -rotate-90">
+              <button data-layer="button-text" data-size="default" data-style="inverse" className="ButtonText inline-flex justify-start items-center gap-4 sm:gap-6 bg-white hover:bg-gray-100 px-6 py-3 sm:px-8 sm:py-4 rounded-full transition-colors duration-200 cursor-pointer">
+                <div data-layer="Button" className="Button justify-start text-zinc-900 text-lg sm:text-xl font-medium font-['Satoshi_Variable'] leading-9">Our Philosophy</div>
+                <div data-layer="icon" className="Icon w-10 h-10 sm:w-14 sm:h-14 rounded-[200px] outline-1 outline-offset-[-1px] outline-zinc-900 flex justify-center items-center gap-2.5">
+                  <div data-layer="ri:arrow-down-line" className="RiArrowDownLine w-0 h-4 sm:h-6 relative origin-top-left -rotate-90">
                     <div data-svg-wrapper data-layer="Vector" className="Vector left-[3.89px] top-[4.28px] absolute">
                       <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.2284 7.00795L7.79191 1.6874L9.22502 0.284855L17.1081 7.99985L9.22502 15.7148L7.79191 14.3123L13.2284 8.99175H0.891907L0.891907 7.00795H13.2284Z" fill="white"/>
+                        <path d="M13.2284 7.00795L7.79191 1.6874L9.22502 0.284855L17.1081 7.99985L9.22502 15.7148L7.79191 14.3123L13.2284 8.99175H0.891907L0.891907 7.00795H13.2284Z" fill="#191919"/>
                       </svg>
                     </div>
                   </div>
                 </div>
-              </div>
+              </button>
             </div>
           </div>
-          <div data-layer="cta-contact" className="CtaContact w-[1888px] py-48 rounded-bl-[96px] rounded-br-[96px] flex flex-col justify-start items-center gap-2.5">
-            <div data-layer="container" className="Container w-[1000px] flex flex-col justify-start items-center gap-12">
+          <div data-layer="cta-contact" className="CtaContact w-full max-w-7xl py-24 sm:py-36 lg:py-48 px-4 sm:px-8 rounded-bl-[48px] rounded-br-[48px] sm:rounded-bl-[96px] sm:rounded-br-[96px] flex flex-col justify-start items-center gap-2.5 mx-4 sm:mx-8">
+            <div data-layer="container" className="Container w-full max-w-[1000px] flex flex-col justify-start items-center gap-8 sm:gap-12">
               <div data-layer="grid" className="Grid self-stretch flex flex-col justify-start items-center gap-4">
-                <div data-layer="Contact" className="Contact justify-start text-white text-base font-medium font-['Satoshi_Variable'] uppercase leading-tight tracking-wide">Contact</div>
-                <div data-layer="Now is the best time to book a Platinum Membership" className="NowIsTheBestTimeToBookAPlatinumMembership w-[1538px] text-center justify-start text-white text-8xl font-medium font-['Satoshi_Variable'] leading-[105.60px]">Now is the best time to book a Platinum Membership</div>
+                <div data-layer="Contact" className="Contact justify-start text-white text-sm sm:text-base font-medium font-['Satoshi_Variable'] uppercase leading-tight tracking-wide">Contact</div>
+                <div data-layer="Now is the best time to book a Platinum Membership" className="NowIsTheBestTimeToBookAPlatinumMembership w-full text-center justify-start text-white text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-medium font-['Satoshi_Variable'] leading-tight sm:leading-[60px] md:leading-[70px] lg:leading-[105.60px]">Now is the best time to book a Platinum Membership</div>
               </div>
-              <div data-layer="button" className="Button px-7 py-5 bg-white rounded-[100px] inline-flex justify-center items-center gap-2.5">
-                <div data-layer="Button" className="Button justify-start text-zinc-900 text-base font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">CONTACT US</div>
-              </div>
+              <button data-layer="button" className="Button px-6 py-4 sm:px-7 sm:py-5 bg-white hover:bg-gray-100 rounded-[100px] inline-flex justify-center items-center gap-2.5 transition-colors duration-200 cursor-pointer">
+                <div data-layer="Button" className="Button justify-start text-zinc-900 text-sm sm:text-base font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">CONTACT US</div>
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <div data-layer="Footer" className="Footer self-stretch pt-40 pb-16 bg-black/90 flex flex-col justify-start items-center">
-        <div data-layer="Container" className="Container w-full max-w-[1600px] inline-flex justify-start items-start gap-48">
-          <div data-layer="Column" className="Column w-96 inline-flex flex-col justify-start items-start gap-24">
+      <div data-layer="Footer" className="Footer self-stretch pt-20 sm:pt-32 lg:pt-40 pb-8 sm:pb-12 lg:pb-16 bg-black/90 px-4 sm:px-8 flex flex-col justify-start items-center">
+        <div data-layer="Container" className="Container w-full max-w-[1600px] flex flex-col lg:flex-row justify-start items-start gap-12 lg:gap-48">
+          <div data-layer="Column" className="Column w-full lg:w-96 inline-flex flex-col justify-start items-start gap-12 lg:gap-24">
             <div data-layer="logo" className="Logo inline-flex justify-start items-start gap-[3px]">
-              <img data-layer="prestive 1" className="Prestive1 w-48 h-24" src="/foo_logo.png" />
+              <img data-layer="prestive 1" className="Prestive1 w-32 h-16 sm:w-40 sm:h-20 lg:w-48 lg:h-24 object-contain" src="/foo_logo.png" />
             </div>
-            <div data-layer="grid" className="Grid w-96 h-7 flex flex-col justify-end items-start gap-2.5">
-              <div data-layer="grid" className="Grid w-96 h-7 inline-flex justify-start items-center gap-2.5">
-                <div data-svg-wrapper data-layer="proicons:location" className="ProiconsLocation relative">
+            <div data-layer="grid" className="Grid w-full flex flex-col justify-end items-start gap-4 sm:gap-6">
+              <div data-layer="grid" className="Grid w-full inline-flex justify-start items-center gap-2.5">
+                <div data-svg-wrapper data-layer="proicons:location" className="ProiconsLocation relative flex-shrink-0">
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4.8 3.56964C5.91773 2.47426 7.4226 1.86424 8.98757 1.87215C10.5525 1.88005 12.0512 2.50524 13.1578 3.61186C14.2644 4.71847 14.8896 6.2171 14.8975 7.78207C14.9054 9.34704 14.2954 10.8519 13.2 11.9696L10.0605 15.1091C9.7792 15.3904 9.39774 15.5483 9 15.5483C8.60225 15.5483 8.22079 15.3904 7.9395 15.1091L4.8 11.9696C3.68616 10.8557 3.06042 9.34492 3.06042 7.76964C3.06042 6.19436 3.68616 4.68359 4.8 3.56964Z" stroke="white" strokeWidth="1.125" strokeLinejoin="round"/>
                     <path d="M9 10.0195C10.2426 10.0195 11.25 9.01217 11.25 7.76953C11.25 6.52689 10.2426 5.51953 9 5.51953C7.75736 5.51953 6.75 6.52689 6.75 7.76953C6.75 9.01217 7.75736 10.0195 9 10.0195Z" stroke="white" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                <div data-layer="Codesk, Banani 11, Dhaka-1206" className="CodeskBanani11Dhaka1206 w-96 h-7 justify-start text-white text-xl font-medium font-['Satoshi_Variable']">Codesk, Banani 11, Dhaka-1206</div>
+                <div data-layer="Codesk, Banani 11, Dhaka-1206" className="CodeskBanani11Dhaka1206 w-full justify-start text-white text-lg sm:text-xl font-medium font-['Satoshi_Variable']">Codesk, Banani 11, Dhaka-1206</div>
               </div>
-              <div data-layer="grid" className="Grid w-96 h-7 inline-flex justify-start items-center gap-2.5">
-                <div data-svg-wrapper data-layer="majesticons:mail-line" className="MajesticonsMailLine relative">
+              <div data-layer="grid" className="Grid w-full inline-flex justify-start items-center gap-2.5">
+                <div data-svg-wrapper data-layer="majesticons:mail-line" className="MajesticonsMailLine relative flex-shrink-0">
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.25 6.75L8.0625 9C8.32854 9.21301 8.65919 9.32906 9 9.32906C9.34081 9.32906 9.67146 9.21301 9.9375 9L12.75 6.75M15.75 12.75V5.25C15.75 4.85218 15.592 4.47064 15.3107 4.18934C15.0294 3.90804 14.6478 3.75 14.25 3.75H3.75C3.35218 3.75 2.97064 3.90804 2.68934 4.18934C2.40804 4.47064 2.25 4.85218 2.25 5.25V12.75C2.25 13.1478 2.40804 13.5294 2.68934 13.8107C2.97064 14.092 3.35218 14.25 3.75 14.25H14.25C14.6478 14.25 15.0294 14.092 15.3107 13.8107C15.592 13.5294 15.75 13.1478 15.75 12.75Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                <div data-layer="contact@prestive.club" className="ContactPrestiveClub w-96 h-7 justify-start text-white text-xl font-medium font-['Satoshi_Variable']">contact@prestive.club</div>
+                <div data-layer="contact@prestive.club" className="ContactPrestiveClub w-full justify-start text-white text-lg sm:text-xl font-medium font-['Satoshi_Variable']">contact@prestive.club</div>
               </div>
-              <div data-layer="grid" className="Grid w-96 h-7 inline-flex justify-start items-center gap-2.5">
-                <div data-svg-wrapper data-layer="proicons:call" className="ProiconsCall relative">
+              <div data-layer="grid" className="Grid w-full inline-flex justify-start items-center gap-2.5">
+                <div data-svg-wrapper data-layer="proicons:call" className="ProiconsCall relative flex-shrink-0">
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.87175 12.1286C4.2588 10.5126 3.01839 8.56362 2.23725 6.41813C1.8075 5.24513 2.20125 3.95663 3.08475 3.07313L3.6315 2.52713C3.77849 2.37985 3.95308 2.26299 4.14529 2.18327C4.3375 2.10354 4.54354 2.0625 4.75162 2.0625C4.95971 2.0625 5.16575 2.10354 5.35796 2.18327C5.55016 2.26299 5.72476 2.37985 5.87175 2.52713L7.152 3.80738C7.29929 3.95437 7.41614 4.12897 7.49587 4.32117C7.57559 4.51338 7.61663 4.71942 7.61663 4.92751C7.61663 5.13559 7.57559 5.34164 7.49587 5.53384C7.41614 5.72605 7.29929 5.90064 7.152 6.04763L6.837 6.36263C6.71091 6.48869 6.61089 6.63836 6.54265 6.80307C6.47442 6.96779 6.43929 7.14434 6.43929 7.32263C6.43929 7.50093 6.47442 7.67747 6.54265 7.84219C6.61089 8.00691 6.71091 8.15657 6.837 8.28263L9.717 11.1634C9.84306 11.2895 9.99272 11.3895 10.1574 11.4577C10.3222 11.526 10.4987 11.5611 10.677 11.5611C10.8553 11.5611 11.0318 11.526 11.1966 11.4577C11.3613 11.3895 11.5109 11.2895 11.637 11.1634L11.9527 10.8484C12.0997 10.7011 12.2743 10.5842 12.4665 10.5045C12.6587 10.4248 12.8648 10.3838 13.0729 10.3838C13.281 10.3838 13.487 10.4248 13.6792 10.5045C13.8714 10.5842 14.046 10.7011 14.193 10.8484L15.4732 12.1286C15.6205 12.2756 15.7374 12.4502 15.8171 12.6424C15.8968 12.8346 15.9379 13.0407 15.9379 13.2488C15.9379 13.4568 15.8968 13.6629 15.8171 13.8551C15.7374 14.0473 15.6205 14.2219 15.4732 14.3689L14.9272 14.9149C14.0437 15.7991 12.7552 16.1929 11.5822 15.7631C9.43676 14.982 7.48783 13.7416 5.87175 12.1286Z" stroke="white" strokeWidth="1.125" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                <div data-layer="+880 1841 733838" className="8801841733838 w-96 h-7 justify-start text-white text-xl font-medium font-['Satoshi_Variable']">+880 1841 733838</div>
+                <div data-layer="+880 1841 733838" className="8801841733838 w-full justify-start text-white text-lg sm:text-xl font-medium font-['Satoshi_Variable']">+880 1841 733838</div>
               </div>
             </div>
             <div data-layer="socials" className="Socials inline-flex justify-start items-start gap-4">
