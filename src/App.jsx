@@ -81,147 +81,147 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div data-layer="Inner" className="Inner self-stretch bg-black/50 flex flex-col justify-start items-center bg-[url('/inner.png')]">
-          <div data-layer="Section Projects" className="SectionProjects flex flex-col justify-start items-start">
-            <div data-layer="Project" className="Project w-[1888px] h-[1000px] relative rounded-[96px] overflow-hidden">
+        <div data-layer="Inner" className="Inner self-stretch bg-black/50 flex flex-col justify-start items-center bg-[url('/inner.png')] px-4 sm:px-8">
+          <div data-layer="Section Projects" className="SectionProjects flex flex-col justify-start items-start w-full max-w-7xl gap-4 sm:gap-8">
+            <div data-layer="Project" className="Project w-full h-[600px] sm:h-[800px] lg:h-[1000px] relative rounded-[48px] sm:rounded-[96px] overflow-hidden">
 
-              <img data-layer="Overlay" className="Overlay w-[1888px] h-[1000px] left-0 top-0 absolute " src="/card_1.png" />
-              <img data-layer="Image" className="Image w-[2311.63px] h-[1596.81px] origin-top-left opacity-20" src="/card_1_overlay.png" />
+              <img data-layer="Overlay" className="Overlay w-full h-full left-0 top-0 absolute object-cover" src="/card_1.png" />
+              <img data-layer="Image" className="Image w-full h-full left-0 top-0 absolute object-cover opacity-20" src="/card_1_overlay.png" />
               
-              <div data-layer="Content" className="Content w-[1888px] h-[1000px] px-28 pt-28 pb-24 left-0 top-0 absolute inline-flex flex-col justify-between items-start">
-                <div data-layer="Top" className="Top flex flex-col justify-start items-start gap-8">
+              <div data-layer="Content" className="Content w-full h-full px-6 sm:px-12 lg:px-28 pt-12 sm:pt-20 lg:pt-28 pb-8 sm:pb-16 lg:pb-24 left-0 top-0 absolute inline-flex flex-col justify-between items-start">
+                <div data-layer="Top" className="Top flex flex-col justify-start items-start gap-4 sm:gap-8">
                   <div data-layer="Grid" className="Grid self-stretch flex flex-col justify-start items-start">
-                    <div data-layer="INDIVIDUAL" className="Individual justify-start text-white text-9xl font-normal font-['Zodiak_Variable'] uppercase leading-[128px]">PERSONAL</div>
-                    <div data-layer="GOLFING" className="Golfing justify-start text-white text-9xl font-medium font-['Satoshi_Variable'] uppercase leading-[128px]">GOLFING</div>
+                    <div data-layer="INDIVIDUAL" className="Individual justify-start text-white text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-normal font-['Zodiak_Variable'] uppercase leading-tight sm:leading-[60px] md:leading-[80px] lg:leading-[128px]">PERSONAL</div>
+                    <div data-layer="GOLFING" className="Golfing justify-start text-white text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-medium font-['Satoshi_Variable'] uppercase leading-tight sm:leading-[60px] md:leading-[80px] lg:leading-[128px]">GOLFING</div>
                   </div>
-                  <div data-layer="Perfect your personal game with unlimited access to our championship courses and professional training to elevate your skills." className="PerfectYourPersonalGameWithUnlimitedAccessToOurChampionshipCoursesAndProfessionalTrainingToElevateYourSkills w-[735px] justify-start text-white text-3xl font-normal font-['Satoshi_Variable']">Perfect your personal game with unlimited access to our championship courses and professional training to elevate your skills.</div>
+                  <div data-layer="Perfect your personal game with unlimited access to our championship courses and professional training to elevate your skills." className="PerfectYourPersonalGameWithUnlimitedAccessToOurChampionshipCoursesAndProfessionalTrainingToElevateYourSkills w-full max-w-[735px] justify-start text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal font-['Satoshi_Variable'] leading-relaxed">Perfect your personal game with unlimited access to our championship courses and professional training to elevate your skills.</div>
                 </div>
-                <div data-layer="Bottom" className="Bottom self-stretch inline-flex justify-between items-center">
-                  <div data-layer="Categories" className="Categories flex justify-start items-start gap-4">
-                    <div data-layer="label" data-style="border inverse" className="Label px-4 py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
-                      <div data-layer="Label" className="Label justify-start text-white text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">PERSONAL GROWTH</div>
+                <div data-layer="Bottom" className="Bottom self-stretch inline-flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0">
+                  <div data-layer="Categories" className="Categories flex flex-wrap justify-start items-start gap-2 sm:gap-4">
+                    <div data-layer="label" data-style="border inverse" className="Label px-3 sm:px-4 py-2 sm:py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
+                      <div data-layer="Label" className="Label justify-start text-white text-xs sm:text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">PERSONAL GROWTH</div>
                     </div>
-                    <div data-layer="label" data-style="border inverse" className="Label px-4 py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
-                      <div data-layer="Label" className="Label justify-start text-white text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">SKILLS DEVELOPMENT</div>
+                    <div data-layer="label" data-style="border inverse" className="Label px-3 sm:px-4 py-2 sm:py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
+                      <div data-layer="Label" className="Label justify-start text-white text-xs sm:text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">SKILLS DEVELOPMENT</div>
                     </div>
                   </div>
-                  <div data-layer="button" className="Button px-7 py-5 bg-gray-200/40 rounded-[100px] flex justify-center items-center gap-1.5">
-                    <div data-layer="SELECT PLAN" className="SelectPlan justify-start text-zinc-900 text-base font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">SELECT PLAN</div>
+                  <button data-layer="button" className="Button px-5 sm:px-7 py-3 sm:py-5 bg-gray-200/40 hover:bg-white/60 rounded-[100px] flex justify-center items-center gap-1.5 transition-colors duration-200 cursor-pointer">
+                    <div data-layer="SELECT PLAN" className="SelectPlan justify-start text-zinc-900 text-sm sm:text-base font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">SELECT PLAN</div>
                     <div data-svg-wrapper data-layer="solar:login-outline" className="SolarLoginOutline relative">
-                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg width="16" height="16" className="sm:w-5 sm:h-5" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10 2.70825C9.83424 2.70825 9.67527 2.7741 9.55806 2.89131C9.44085 3.00852 9.375 3.16749 9.375 3.33325C9.375 3.49901 9.44085 3.65798 9.55806 3.77519C9.67527 3.8924 9.83424 3.95825 10 3.95825C10.7934 3.95825 11.579 4.11452 12.312 4.41815C13.0451 4.72177 13.7111 5.16679 14.2721 5.72782C14.8331 6.28884 15.2781 6.95486 15.5818 7.68787C15.8854 8.42088 16.0417 9.20652 16.0417 9.99992C16.0417 10.7933 15.8854 11.579 15.5818 12.312C15.2781 13.045 14.8331 13.711 14.2721 14.272C13.7111 14.833 13.0451 15.2781 12.312 15.5817C11.579 15.8853 10.7934 16.0416 10 16.0416C9.83424 16.0416 9.67527 16.1074 9.55806 16.2246C9.44085 16.3419 9.375 16.5008 9.375 16.6666C9.375 16.8323 9.44085 16.9913 9.55806 17.1085C9.67527 17.2257 9.83424 17.2916 10 17.2916C11.9339 17.2916 13.7885 16.5234 15.156 15.1559C16.5234 13.7885 17.2917 11.9338 17.2917 9.99992C17.2917 8.06605 16.5234 6.21138 15.156 4.84393C13.7885 3.47648 11.9339 2.70825 10 2.70825Z" fill="#191919"/>
                         <path d="M8.72504 7.9417C8.61464 7.82322 8.55454 7.66652 8.55739 7.5046C8.56025 7.34268 8.62584 7.18819 8.74036 7.07368C8.85487 6.95917 9.00935 6.89358 9.17127 6.89072C9.33319 6.88787 9.48989 6.94797 9.60837 7.05837L12.1084 9.55837C12.2254 9.67556 12.2912 9.83441 12.2912 10C12.2912 10.1657 12.2254 10.3245 12.1084 10.4417L9.60837 12.9417C9.55115 13.0031 9.48215 13.0524 9.40549 13.0865C9.32882 13.1207 9.24606 13.139 9.16214 13.1405C9.07822 13.142 8.99487 13.1266 8.91704 13.0951C8.83922 13.0637 8.76852 13.0169 8.70918 12.9576C8.64983 12.8982 8.60304 12.8275 8.5716 12.7497C8.54017 12.6719 8.52473 12.5885 8.52621 12.5046C8.52769 12.4207 8.54606 12.3379 8.58022 12.2613C8.61438 12.1846 8.66363 12.1156 8.72504 12.0584L10.1584 10.625H3.33337C3.16761 10.625 3.00864 10.5592 2.89143 10.442C2.77422 10.3248 2.70837 10.1658 2.70837 10C2.70837 9.83427 2.77422 9.6753 2.89143 9.55809C3.00864 9.44088 3.16761 9.37504 3.33337 9.37504H10.1584L8.72504 7.9417Z" fill="#191919"/>
                       </svg>
                     </div>
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
-            <div data-layer="Project" className="Project w-[1888px] h-[1000px] relative bg-slate-400 rounded-[96px] overflow-hidden">
-              <img data-layer="Image" className="Image w-[2000px] h-[1083px] absolute" src="/card_2.png" />
-              <img data-layer="Overlay" className="Overlay w-[1888px] h-[2452px] left-0 top-0 absolute opacity-10" src="/card_2_overlay.png" />
-              <div data-layer="Content" className="Content w-[1888px] h-[1000px] px-28 pt-28 pb-24 left-0 top-0 absolute inline-flex flex-col justify-between items-start">
-                <div data-layer="Top" className="Top flex flex-col justify-start items-start gap-8">
+            <div data-layer="Project" className="Project w-full h-[600px] sm:h-[800px] lg:h-[1000px] relative bg-slate-400 rounded-[48px] sm:rounded-[96px] overflow-hidden">
+              <img data-layer="Image" className="Image w-full h-full left-0 top-0 absolute object-cover" src="/card_2.png" />
+              <img data-layer="Overlay" className="Overlay w-full h-full left-0 top-0 absolute opacity-10 object-cover" src="/card_2_overlay.png" />
+              <div data-layer="Content" className="Content w-full h-full px-6 sm:px-12 lg:px-28 pt-12 sm:pt-20 lg:pt-28 pb-8 sm:pb-16 lg:pb-24 left-0 top-0 absolute inline-flex flex-col justify-between items-start">
+                <div data-layer="Top" className="Top flex flex-col justify-start items-start gap-4 sm:gap-8">
                   <div data-layer="Grid" className="Grid self-stretch flex flex-col justify-start items-start">
-                    <div data-layer="HERE, FAMILIES" className="HereFamilies justify-start text-white text-9xl font-normal font-['Zodiak_Variable'] uppercase leading-[128px]">HERE, FAMILIES</div>
-                    <div data-layer="Swing together" className="SwingTogether justify-start text-white text-9xl font-medium font-['Satoshi_Variable'] uppercase leading-[128px]">Swing together</div>
+                    <div data-layer="HERE, FAMILIES" className="HereFamilies justify-start text-white text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-normal font-['Zodiak_Variable'] uppercase leading-tight sm:leading-[60px] md:leading-[80px] lg:leading-[128px]">HERE, FAMILIES</div>
+                    <div data-layer="Swing together" className="SwingTogether justify-start text-white text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-medium font-['Satoshi_Variable'] uppercase leading-tight sm:leading-[60px] md:leading-[80px] lg:leading-[128px]">Swing together</div>
                   </div>
-                  <div data-layer="Create lasting memories as you teach younger generations the values of patience, focus, and strategic thinking on our scenic courses." className="CreateLastingMemoriesAsYouTeachYoungerGenerationsTheValuesOfPatienceFocusAndStrategicThinkingOnOurScenicCourses w-[753px] justify-start text-white text-3xl font-normal font-['Satoshi_Variable']">Create lasting memories as you teach younger generations the values of patience, focus, and strategic thinking on our scenic courses.</div>
+                  <div data-layer="Create lasting memories as you teach younger generations the values of patience, focus, and strategic thinking on our scenic courses." className="CreateLastingMemoriesAsYouTeachYoungerGenerationsTheValuesOfPatienceFocusAndStrategicThinkingOnOurScenicCourses w-full max-w-[753px] justify-start text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal font-['Satoshi_Variable'] leading-relaxed">Create lasting memories as you teach younger generations the values of patience, focus, and strategic thinking on our scenic courses.</div>
                 </div>
-                <div data-layer="Bottom" className="Bottom self-stretch inline-flex justify-between items-center">
-                  <div data-layer="Categories" className="Categories flex justify-start items-start gap-4">
-                    <div data-layer="label" data-style="border inverse" className="Label px-4 py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
-                      <div data-layer="Label" className="Label justify-start text-white text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">FAMILY BONDING</div>
+                <div data-layer="Bottom" className="Bottom self-stretch inline-flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0">
+                  <div data-layer="Categories" className="Categories flex flex-wrap justify-start items-start gap-2 sm:gap-4">
+                    <div data-layer="label" data-style="border inverse" className="Label px-3 sm:px-4 py-2 sm:py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
+                      <div data-layer="Label" className="Label justify-start text-white text-xs sm:text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">FAMILY BONDING</div>
                     </div>
-                    <div data-layer="label" data-style="border inverse" className="Label px-4 py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
-                      <div data-layer="Label" className="Label justify-start text-white text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">VALUABLE LESSONS</div>
+                    <div data-layer="label" data-style="border inverse" className="Label px-3 sm:px-4 py-2 sm:py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
+                      <div data-layer="Label" className="Label justify-start text-white text-xs sm:text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">VALUABLE LESSONS</div>
                     </div>
                   </div>
-                  <div data-layer="button" className="Button px-7 py-5 bg-gray-200/40 rounded-[100px] flex justify-center items-center gap-1.5">
-                    <div data-layer="SELECT PLAN" className="SelectPlan justify-start text-zinc-900 text-base font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">SELECT PLAN</div>
+                  <button data-layer="button" className="Button px-5 sm:px-7 py-3 sm:py-5 bg-gray-200/40 hover:bg-white/60 rounded-[100px] flex justify-center items-center gap-1.5 transition-colors duration-200 cursor-pointer">
+                    <div data-layer="SELECT PLAN" className="SelectPlan justify-start text-zinc-900 text-sm sm:text-base font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">SELECT PLAN</div>
                     <div data-svg-wrapper data-layer="solar:login-outline" className="SolarLoginOutline relative">
-                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg width="16" height="16" className="sm:w-5 sm:h-5" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10 2.7085C9.83424 2.7085 9.67527 2.77434 9.55806 2.89155C9.44085 3.00876 9.375 3.16774 9.375 3.3335C9.375 3.49926 9.44085 3.65823 9.55806 3.77544C9.67527 3.89265 9.83424 3.9585 10 3.9585C10.7934 3.9585 11.579 4.11477 12.312 4.41839C13.0451 4.72201 13.7111 5.16704 14.2721 5.72806C14.8331 6.28908 15.2781 6.95511 15.5818 7.68812C15.8854 8.42113 16.0417 9.20676 16.0417 10.0002C16.0417 10.7936 15.8854 11.5792 15.5818 12.3122C15.2781 13.0452 14.8331 13.7112 14.2721 14.2723C13.7111 14.8333 13.0451 15.2783 12.312 15.5819C11.579 15.8856 10.7934 16.0418 10 16.0418C9.83424 16.0418 9.67527 16.1077 9.55806 16.2249C9.44085 16.3421 9.375 16.5011 9.375 16.6668C9.375 16.8326 9.44085 16.9916 9.55806 17.1088C9.67527 17.226 9.83424 17.2918 10 17.2918C11.9339 17.2918 13.7885 16.5236 15.156 15.1561C16.5234 13.7887 17.2917 11.934 17.2917 10.0002C17.2917 8.06629 16.5234 6.21163 15.156 4.84418C13.7885 3.47672 11.9339 2.7085 10 2.7085Z" fill="#191919"/>
                         <path d="M8.72504 7.9417C8.61464 7.82322 8.55454 7.66652 8.55739 7.5046C8.56025 7.34268 8.62584 7.18819 8.74036 7.07368C8.85487 6.95917 9.00935 6.89358 9.17127 6.89072C9.33319 6.88787 9.48989 6.94797 9.60837 7.05837L12.1084 9.55837C12.2254 9.67556 12.2912 9.83441 12.2912 10C12.2912 10.1657 12.2254 10.3245 12.1084 10.4417L9.60837 12.9417C9.55115 13.0031 9.48215 13.0524 9.40549 13.0865C9.32882 13.1207 9.24606 13.139 9.16214 13.1405C9.07822 13.142 8.99487 13.1266 8.91704 13.0951C8.83922 13.0637 8.76852 13.0169 8.70918 12.9576C8.64983 12.8982 8.60304 12.8275 8.5716 12.7497C8.54017 12.6719 8.52473 12.5885 8.52621 12.5046C8.52769 12.4207 8.54606 12.3379 8.58022 12.2613C8.61438 12.1846 8.66363 12.1156 8.72504 12.0584L10.1584 10.625H3.33337C3.16761 10.625 3.00864 10.5592 2.89143 10.442C2.77422 10.3248 2.70837 10.1658 2.70837 10C2.70837 9.83427 2.77422 9.6753 2.89143 9.55809C3.00864 9.44088 3.16761 9.37504 3.33337 9.37504H10.1584L8.72504 7.9417Z" fill="#191919"/>
                       </svg>
                     </div>
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
-            <div data-layer="Project" className="Project w-[1888px] h-[1000px] relative bg-slate-400 rounded-[96px] overflow-hidden">
-              <img data-layer="Image" className="Image w-[1888px] h-[1000px] left-[0] top-[0] absolute origin-top-left" src="/card_3.png" />
-              <img data-layer="Overlay" className="Overlay w-[1888px] h-[2452px] left-0 top-0 absolute opacity-10" src="/card_3_overlay.png" />
-              <div data-layer="Content" className="Content w-[1888px] h-[1000px] px-28 pt-28 pb-24 left-0 top-0 absolute inline-flex flex-col justify-between items-start">
-                <div data-layer="Top" className="Top flex flex-col justify-start items-start gap-8">
+            <div data-layer="Project" className="Project w-full h-[600px] sm:h-[800px] lg:h-[1000px] relative bg-slate-400 rounded-[48px] sm:rounded-[96px] overflow-hidden">
+              <img data-layer="Image" className="Image w-full h-full left-0 top-0 absolute object-cover" src="/card_3.png" />
+              <img data-layer="Overlay" className="Overlay w-full h-full left-0 top-0 absolute opacity-10 object-cover" src="/card_3_overlay.png" />
+              <div data-layer="Content" className="Content w-full h-full px-6 sm:px-12 lg:px-28 pt-12 sm:pt-20 lg:pt-28 pb-8 sm:pb-16 lg:pb-24 left-0 top-0 absolute inline-flex flex-col justify-between items-start">
+                <div data-layer="Top" className="Top flex flex-col justify-start items-start gap-4 sm:gap-8">
                   <div data-layer="Grid" className="Grid self-stretch flex flex-col justify-start items-start">
-                    <div data-layer="BUILD COMMUNITY AT" className="BuildCommunityAt justify-start text-white text-9xl font-normal font-['Zodiak_Variable'] uppercase leading-[128px]">BUILD COMMUNITY AT</div>
-                    <div data-layer="EVERY GOLF CLUB" className="EveryGolfClub justify-start text-white text-9xl font-medium font-['Satoshi_Variable'] uppercase leading-[128px]">EVERY GOLF CLUB</div>
+                    <div data-layer="BUILD COMMUNITY AT" className="BuildCommunityAt justify-start text-white text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-normal font-['Zodiak_Variable'] uppercase leading-tight sm:leading-[60px] md:leading-[80px] lg:leading-[128px]">BUILD COMMUNITY AT</div>
+                    <div data-layer="EVERY GOLF CLUB" className="EveryGolfClub justify-start text-white text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-medium font-['Satoshi_Variable'] uppercase leading-tight sm:leading-[60px] md:leading-[80px] lg:leading-[128px]">EVERY GOLF CLUB</div>
                   </div>
-                  <div data-layer="Strengthen professional relationships and build new connections in the relaxed setting of our exclusive member club environment." className="StrengthenProfessionalRelationshipsAndBuildNewConnectionsInTheRelaxedSettingOfOurExclusiveMemberClubEnvironment w-[839px] justify-start text-white text-3xl font-normal font-['Satoshi_Variable']">Strengthen professional relationships and build new connections in the relaxed setting of our exclusive member club environment.</div>
+                  <div data-layer="Strengthen professional relationships and build new connections in the relaxed setting of our exclusive member club environment." className="StrengthenProfessionalRelationshipsAndBuildNewConnectionsInTheRelaxedSettingOfOurExclusiveMemberClubEnvironment w-full max-w-[839px] justify-start text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal font-['Satoshi_Variable'] leading-relaxed">Strengthen professional relationships and build new connections in the relaxed setting of our exclusive member club environment.</div>
                 </div>
-                <div data-layer="Bottom" className="Bottom self-stretch inline-flex justify-between items-center">
-                  <div data-layer="Categories" className="Categories flex justify-start items-start gap-4">
-                    <div data-layer="label" data-style="border inverse" className="Label px-4 py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
-                      <div data-layer="Label" className="Label justify-start text-white text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">NETWORKING</div>
+                <div data-layer="Bottom" className="Bottom self-stretch inline-flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0">
+                  <div data-layer="Categories" className="Categories flex flex-wrap justify-start items-start gap-2 sm:gap-4">
+                    <div data-layer="label" data-style="border inverse" className="Label px-3 sm:px-4 py-2 sm:py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
+                      <div data-layer="Label" className="Label justify-start text-white text-xs sm:text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">NETWORKING</div>
                     </div>
-                    <div data-layer="label" data-style="border inverse" className="Label px-4 py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
-                      <div data-layer="Label" className="Label justify-start text-white text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">RELATIONSHIPS</div>
+                    <div data-layer="label" data-style="border inverse" className="Label px-3 sm:px-4 py-2 sm:py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
+                      <div data-layer="Label" className="Label justify-start text-white text-xs sm:text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">RELATIONSHIPS</div>
                     </div>
                   </div>
-                  <div data-layer="button" className="Button px-7 py-5 bg-gray-200/40 rounded-[100px] flex justify-center items-center gap-1.5">
-                    <div data-layer="SELECT PLAN" className="SelectPlan justify-start text-zinc-900 text-base font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">SELECT PLAN</div>
+                  <button data-layer="button" className="Button px-5 sm:px-7 py-3 sm:py-5 bg-gray-200/40 hover:bg-white/60 rounded-[100px] flex justify-center items-center gap-1.5 transition-colors duration-200 cursor-pointer">
+                    <div data-layer="SELECT PLAN" className="SelectPlan justify-start text-zinc-900 text-sm sm:text-base font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">SELECT PLAN</div>
                     <div data-svg-wrapper data-layer="solar:login-outline" className="SolarLoginOutline relative">
-                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg width="16" height="16" className="sm:w-5 sm:h-5" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10 2.7085C9.83424 2.7085 9.67527 2.77434 9.55806 2.89155C9.44085 3.00876 9.375 3.16774 9.375 3.3335C9.375 3.49926 9.44085 3.65823 9.55806 3.77544C9.67527 3.89265 9.83424 3.9585 10 3.9585C10.7934 3.9585 11.579 4.11477 12.312 4.41839C13.0451 4.72201 13.7111 5.16704 14.2721 5.72806C14.8331 6.28908 15.2781 6.95511 15.5818 7.68812C15.8854 8.42113 16.0417 9.20676 16.0417 10.0002C16.0417 10.7936 15.8854 11.5792 15.5818 12.3122C15.2781 13.0452 14.8331 13.7112 14.2721 14.2723C13.7111 14.8333 13.0451 15.2783 12.312 15.5819C11.579 15.8856 10.7934 16.0418 10 16.0418C9.83424 16.0418 9.67527 16.1077 9.55806 16.2249C9.44085 16.3421 9.375 16.5011 9.375 16.6668C9.375 16.8326 9.44085 16.9916 9.55806 17.1088C9.67527 17.226 9.83424 17.2918 10 17.2918C11.9339 17.2918 13.7885 16.5236 15.156 15.1561C16.5234 13.7887 17.2917 11.934 17.2917 10.0002C17.2917 8.06629 16.5234 6.21163 15.156 4.84418C13.7885 3.47672 11.9339 2.7085 10 2.7085Z" fill="#191919"/>
                         <path d="M8.72504 7.9417C8.61464 7.82322 8.55454 7.66652 8.55739 7.5046C8.56025 7.34268 8.62584 7.18819 8.74036 7.07368C8.85487 6.95917 9.00935 6.89358 9.17127 6.89072C9.33319 6.88787 9.48989 6.94797 9.60837 7.05837L12.1084 9.55837C12.2254 9.67556 12.2912 9.83441 12.2912 10C12.2912 10.1657 12.2254 10.3245 12.1084 10.4417L9.60837 12.9417C9.55115 13.0031 9.48215 13.0524 9.40549 13.0865C9.32882 13.1207 9.24606 13.139 9.16214 13.1405C9.07822 13.142 8.99487 13.1266 8.91704 13.0951C8.83922 13.0637 8.76852 13.0169 8.70918 12.9576C8.64983 12.8982 8.60304 12.8275 8.5716 12.7497C8.54017 12.6719 8.52473 12.5885 8.52621 12.5046C8.52769 12.4207 8.54606 12.3379 8.58022 12.2613C8.61438 12.1846 8.66363 12.1156 8.72504 12.0584L10.1584 10.625H3.33337C3.16761 10.625 3.00864 10.5592 2.89143 10.442C2.77422 10.3248 2.70837 10.1658 2.70837 10C2.70837 9.83427 2.77422 9.6753 2.89143 9.55809C3.00864 9.44088 3.16761 9.37504 3.33337 9.37504H10.1584L8.72504 7.9417Z" fill="#191919"/>
                       </svg>
                     </div>
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
-            <div data-layer="Project" className="Project w-[1888px] h-[1000px] relative bg-slate-400 rounded-[96px] overflow-hidden">
-              <img data-layer="Image" className="Image w-[1888px] h-[1000px]  absolute" src="/card_4.png" />
-              <img data-layer="Overlay" className="Overlay w-[1888px] h-[2452px] left-0 top-0 absolute opacity-10" src="/card_4_overlay.png" />
-              <div data-layer="Content" className="Content w-[1888px] h-[1000px] px-28 pt-28 pb-24 left-0 top-0 absolute inline-flex flex-col justify-between items-start">
-                <div data-layer="Top" className="Top flex flex-col justify-start items-start gap-8">
+            <div data-layer="Project" className="Project w-full h-[600px] sm:h-[800px] lg:h-[1000px] relative bg-slate-400 rounded-[48px] sm:rounded-[96px] overflow-hidden">
+              <img data-layer="Image" className="Image w-full h-full left-0 top-0 absolute object-cover" src="/card_4.png" />
+              <img data-layer="Overlay" className="Overlay w-full h-full left-0 top-0 absolute opacity-10 object-cover" src="/card_4_overlay.png" />
+              <div data-layer="Content" className="Content w-full h-full px-6 sm:px-12 lg:px-28 pt-12 sm:pt-20 lg:pt-28 pb-8 sm:pb-16 lg:pb-24 left-0 top-0 absolute inline-flex flex-col justify-between items-start">
+                <div data-layer="Top" className="Top flex flex-col justify-start items-start gap-4 sm:gap-8">
                   <div data-layer="Grid" className="Grid self-stretch flex flex-col justify-start items-start">
-                    <div data-layer="INVEST ONCE," className="InvestOnce justify-start text-white text-9xl font-normal font-['Zodiak_Variable'] uppercase leading-[128px]">INVEST ONCE,</div>
-                    <div data-layer="EXPERIENCE FOR LIFE" className="ExperienceForLife justify-start text-white text-9xl font-medium font-['Satoshi_Variable'] uppercase leading-[128px]">EXPERIENCE FOR LIFE</div>
+                    <div data-layer="INVEST ONCE," className="InvestOnce justify-start text-white text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-normal font-['Zodiak_Variable'] uppercase leading-tight sm:leading-[60px] md:leading-[80px] lg:leading-[128px]">INVEST ONCE,</div>
+                    <div data-layer="EXPERIENCE FOR LIFE" className="ExperienceForLife justify-start text-white text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-medium font-['Satoshi_Variable'] uppercase leading-tight sm:leading-[60px] md:leading-[80px] lg:leading-[128px]">EXPERIENCE FOR LIFE</div>
                   </div>
-                  <div data-layer="Secure your personal sanctuary and a legacy of privileges with a membership that offers a lifetime of unparalleled access and fulfillment." className="SecureYourPersonalSanctuaryAndALegacyOfPrivilegesWithAMembershipThatOffersALifetimeOfUnparalleledAccessAndFulfillment w-[839px] justify-start text-white text-3xl font-normal font-['Satoshi_Variable']">Secure your personal sanctuary and a legacy of privileges with a membership that offers a lifetime of unparalleled access and fulfillment.</div>
+                  <div data-layer="Secure your personal sanctuary and a legacy of privileges with a membership that offers a lifetime of unparalleled access and fulfillment." className="SecureYourPersonalSanctuaryAndALegacyOfPrivilegesWithAMembershipThatOffersALifetimeOfUnparalleledAccessAndFulfillment w-full max-w-[839px] justify-start text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal font-['Satoshi_Variable'] leading-relaxed">Secure your personal sanctuary and a legacy of privileges with a membership that offers a lifetime of unparalleled access and fulfillment.</div>
                 </div>
-                <div data-layer="Bottom" className="Bottom self-stretch inline-flex justify-between items-center">
-                  <div data-layer="Categories" className="Categories flex justify-start items-start gap-4">
-                    <div data-layer="label" data-style="border inverse" className="Label px-4 py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
-                      <div data-layer="Label" className="Label justify-start text-white text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">LEGACY</div>
+                <div data-layer="Bottom" className="Bottom self-stretch inline-flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0">
+                  <div data-layer="Categories" className="Categories flex flex-wrap justify-start items-start gap-2 sm:gap-4">
+                    <div data-layer="label" data-style="border inverse" className="Label px-3 sm:px-4 py-2 sm:py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
+                      <div data-layer="Label" className="Label justify-start text-white text-xs sm:text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">LEGACY</div>
                     </div>
-                    <div data-layer="label" data-style="border inverse" className="Label px-4 py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
-                      <div data-layer="Label" className="Label justify-start text-white text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">EXCLUSIVITY</div>
+                    <div data-layer="label" data-style="border inverse" className="Label px-3 sm:px-4 py-2 sm:py-2.5 rounded-[500px] outline-1 outline-offset-[-1px] outline-white flex justify-start items-start gap-2.5">
+                      <div data-layer="Label" className="Label justify-start text-white text-xs sm:text-sm font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">EXCLUSIVITY</div>
                     </div>
                   </div>
-                  <div data-layer="button" className="Button px-7 py-5 bg-gray-200/40 rounded-[100px] flex justify-center items-center gap-1.5">
-                    <div data-layer="SELECT PLAN" className="SelectPlan justify-start text-zinc-900 text-base font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">SELECT PLAN</div>
+                  <button data-layer="button" className="Button px-5 sm:px-7 py-3 sm:py-5 bg-gray-200/40 hover:bg-white/60 rounded-[100px] flex justify-center items-center gap-1.5 transition-colors duration-200 cursor-pointer">
+                    <div data-layer="SELECT PLAN" className="SelectPlan justify-start text-zinc-900 text-sm sm:text-base font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">SELECT PLAN</div>
                     <div data-svg-wrapper data-layer="solar:login-outline" className="SolarLoginOutline relative">
-                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg width="16" height="16" className="sm:w-5 sm:h-5" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10 2.7085C9.83424 2.7085 9.67527 2.77434 9.55806 2.89155C9.44085 3.00876 9.375 3.16774 9.375 3.3335C9.375 3.49926 9.44085 3.65823 9.55806 3.77544C9.67527 3.89265 9.83424 3.9585 10 3.9585C10.7934 3.9585 11.579 4.11477 12.312 4.41839C13.0451 4.72201 13.7111 5.16704 14.2721 5.72806C14.8331 6.28908 15.2781 6.95511 15.5818 7.68812C15.8854 8.42113 16.0417 9.20676 16.0417 10.0002C16.0417 10.7936 15.8854 11.5792 15.5818 12.3122C15.2781 13.0452 14.8331 13.7112 14.2721 14.2723C13.7111 14.8333 13.0451 15.2783 12.312 15.5819C11.579 15.8856 10.7934 16.0418 10 16.0418C9.83424 16.0418 9.67527 16.1077 9.55806 16.2249C9.44085 16.3421 9.375 16.5011 9.375 16.6668C9.375 16.8326 9.44085 16.9916 9.55806 17.1088C9.67527 17.226 9.83424 17.2918 10 17.2918C11.9339 17.2918 13.7885 16.5236 15.156 15.1561C16.5234 13.7887 17.2917 11.934 17.2917 10.0002C17.2917 8.06629 16.5234 6.21163 15.156 4.84418C13.7885 3.47672 11.9339 2.7085 10 2.7085Z" fill="#191919"/>
                         <path d="M8.72504 7.9417C8.61464 7.82322 8.55454 7.66652 8.55739 7.5046C8.56025 7.34268 8.62584 7.18819 8.74036 7.07368C8.85487 6.95917 9.00935 6.89358 9.17127 6.89072C9.33319 6.88787 9.48989 6.94797 9.60837 7.05837L12.1084 9.55837C12.2254 9.67556 12.2912 9.83441 12.2912 10C12.2912 10.1657 12.2254 10.3245 12.1084 10.4417L9.60837 12.9417C9.55115 13.0031 9.48215 13.0524 9.40549 13.0865C9.32882 13.1207 9.24606 13.139 9.16214 13.1405C9.07822 13.142 8.99487 13.1266 8.91704 13.0951C8.83922 13.0637 8.76852 13.0169 8.70918 12.9576C8.64983 12.8982 8.60304 12.8275 8.5716 12.7497C8.54017 12.6719 8.52473 12.5885 8.52621 12.5046C8.52769 12.4207 8.54606 12.3379 8.58022 12.2613C8.61438 12.1846 8.66363 12.1156 8.72504 12.0584L10.1584 10.625H3.33337C3.16761 10.625 3.00864 10.5592 2.89143 10.442C2.77422 10.3248 2.70837 10.1658 2.70837 10C2.70837 9.83427 2.77422 9.6753 2.89143 9.55809C3.00864 9.44088 3.16761 9.37504 3.33337 9.37504H10.1584L8.72504 7.9417Z" fill="#191919"/>
                       </svg>
                     </div>
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
-            <div data-layer="Project" className="Project self-stretch h-[1000px] relative bg-slate-400 rounded-[96px] overflow-hidden">
-              <img data-layer="Image" className="Image w-[1888px] h-[1000px] left-[0] top-[0] absolute" src="/cta.png" />
-              <img data-layer="Overlay" className="Overlay w-[1888px] h-[2452px] left-0 top-0 absolute opacity-10" src="/cta_overlay.png" />
-              <div data-layer="container" className="Container w-[1000px] left-[444px] top-[330px] absolute inline-flex flex-col justify-start items-center gap-12">
-                <div data-layer="Now is the best time to book a Platinum Membership" className="NowIsTheBestTimeToBookAPlatinumMembership w-[1538px] text-center justify-start text-white text-8xl font-medium font-['Satoshi_Variable'] leading-[105.60px]">Now is the best time to book a Platinum Membership</div>
+            <div data-layer="Project" className="Project w-full h-[600px] sm:h-[800px] lg:h-[1000px] relative bg-slate-400 rounded-[48px] sm:rounded-[96px] overflow-hidden">
+              <img data-layer="Image" className="Image w-full h-full left-0 top-0 absolute object-cover" src="/cta.png" />
+              <img data-layer="Overlay" className="Overlay w-full h-full left-0 top-0 absolute opacity-10 object-cover" src="/cta_overlay.png" />
+              <div data-layer="container" className="Container w-full max-w-[1000px] px-6 sm:px-12 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 absolute inline-flex flex-col justify-start items-center gap-8 sm:gap-12">
+                <div data-layer="Now is the best time to book a Platinum Membership" className="NowIsTheBestTimeToBookAPlatinumMembership w-full text-center justify-start text-white text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-medium font-['Satoshi_Variable'] leading-tight sm:leading-[60px] md:leading-[70px] lg:leading-[105.60px]">Now is the best time to book a Platinum Membership</div>
                 <div data-layer="grid" className="Grid self-stretch inline-flex justify-center items-start gap-12">
-                  <div data-layer="button" className="Button w-48 h-16 px-7 py-5 rounded-[100px] flex justify-center items-center gap-2.5">
-                    <div data-layer="CONTACT US" className="ContactUs w-28 justify-start text-zinc-900 text-base font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">CONTACT US</div>
-                  </div>
+                  <button data-layer="button" className="Button px-6 py-4 sm:px-7 sm:py-5 bg-white hover:bg-gray-100 rounded-[100px] flex justify-center items-center gap-2.5 transition-colors duration-200 cursor-pointer">
+                    <div data-layer="CONTACT US" className="ContactUs justify-start text-zinc-900 text-sm sm:text-base font-medium font-['Satoshi_Variable'] uppercase leading-none tracking-wide">CONTACT US</div>
+                  </button>
                 </div>
               </div>
             </div>
